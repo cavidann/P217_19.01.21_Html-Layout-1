@@ -1,6 +1,6 @@
 # P217_19.01.21_Html-Layout-1
 
-1. **Create forms as shown below screenshots:**
+1. **Create one of shown below screenshots:**
 
 - First: 
 
