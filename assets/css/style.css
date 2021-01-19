@@ -1,0 +1,31 @@
+/* ul li {
+    color: red;
+}
+
+div {
+    display: inline-block;
+} */
+
+* {
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.left {
+    float: left;
+    width: 50%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+section {
+    border-color: red;
+}
+
+.clearfixafter::after {
+    content: "";
+    clear: both;
+    display: table;
+}

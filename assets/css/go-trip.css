@@ -1,0 +1,116 @@
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    box-shadow: 0px 5px 20px grey;
+}
+
+header .img-outer {
+    width: 120px;
+    padding-top: 16px;
+}
+
+header ul li {
+    display: inline-block;
+    padding: 4px 12px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.t-center {
+    text-align: center;
+}
+
+.section-header-1 {
+    font-size: 32px;
+}
+
+.section-header-2 {
+    color: burlywood;
+    font-size: 14px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.card .content {
+    border: 1px solid red;
+    border-top: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* overflow: hidden; */
+}
+
+.card-list .card .content {
+    padding: 20px 40px;
+}
+
+.card .content i {
+    color: burlywood;
+}
+
+.card .img-outer img {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.content .price {
+    color: cadetblue;
+    font-size: 20px;
+}
+
+.content .date-location p {
+    display: inline-block;
+}
+
+.p-lr-16 {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.p-tb-16 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
